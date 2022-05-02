@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    margin: 3rem;
+    padding: 3rem;
+    height: 100vh;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+}
+
+.about-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.underline{
+    height: 0.3rem;
+    width:25%;
+    background-color: black;
+    margin: -0.2rem 0 2.5rem 0;
+    padding: 0px;
+}
+.about-content{
+    font-size: 1rem;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    margin-bottom: 1.25rem;
+}
+.about-content a{
+    text-decoration: none;
+    color: blue;
+}
+.topmost-left{
+    display: flex;
+    margin: 2.5rem;
+    padding: 1.5rem;
+}
+.about-img img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 5%;
+    margin: 0.3rem 4rem 0.3rem 0.3rem;
+}
+.about-description{
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
