@@ -9,7 +9,7 @@ function App() {
       {/* <Navbar/> */}
       <Home />
       <About />
-      <ProgressBar bgcolor="orange" progress='30'  height={30} />
+      
     </>
   );
 }
