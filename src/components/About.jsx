@@ -1,7 +1,20 @@
 import React from "react";
 import "../assets/css/About.css";
+import ProgressBar from "./ProgressBar";
 
 function About() {
+  const skills = [
+    {id:1,name:"HTML5",progress:95},
+    {id:2,name:"CSS3",progress:95},
+    {id:3,name:"JavaScript",progress:90},
+    {id:4,name:"ReactJS",progress:90},
+    {id:5,name:"NodeJS",progress:85},
+    {id:6,name:"ExpressJS",progress:85},
+    {id:7,name:"MongoDB",progress:90},
+    {id:8,name:"JavaSE",progress:90},
+    {id:9,name:"JavaEE",progress:85},
+    {id:10,name:"MySQL",progress:90},
+  ];
   return (
     <>
       <div className="about-container">
@@ -9,8 +22,12 @@ function About() {
           <div className="col-md-6">
             <div className="topmost-left">
               <div className="row">
-                <div className="col-md-5">
-                  <img className="about-img img-fluid" src="/images/about.jpg" alt="about" />
+                <div className="col-md-5 about-img-container">
+                  <img
+                    className="about-img img-fluid"
+                    src="/images/about.jpg"
+                    alt="about"
+                  />
                 </div>
                 <div className="col-md-7">
                   <div className="about-info">
@@ -33,6 +50,20 @@ function About() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="bottommost-left">
+              <p className="skill-heading">Skills</p>
+              {skills.map((element) => {
+                return (
+                  <div className="progress-bars" key={element.id}>
+                    <div className="progress-text">
+                      <span>{element.name}</span>
+                      <span>{element.progress}%</span>
+                    </div>
+                    <ProgressBar bgcolor="#0078ff" progress={element.progress} height={10} />
+                  </div>
+                );
+              })}
             </div>
           </div>
           <div className="col-md-6">
