@@ -1,20 +1,9 @@
 import React from "react";
 import "../assets/css/About.css";
 import ProgressBar from "./ProgressBar";
+import skills from "../assets/data/skills";
 
 function About() {
-  const skills = [
-    {id:1,name:"HTML5",progress:95},
-    {id:2,name:"CSS3",progress:95},
-    {id:3,name:"JavaScript",progress:90},
-    {id:4,name:"ReactJS",progress:90},
-    {id:5,name:"NodeJS",progress:85},
-    {id:6,name:"ExpressJS",progress:85},
-    {id:7,name:"MongoDB",progress:90},
-    {id:8,name:"JavaSE",progress:90},
-    {id:9,name:"JavaEE",progress:85},
-    {id:10,name:"MySQL",progress:90},
-  ];
   return (
     <>
       <div className="about-container">
@@ -60,7 +49,11 @@ function About() {
                       <span>{element.name}</span>
                       <span>{element.progress}%</span>
                     </div>
-                    <ProgressBar bgcolor="#0078ff" progress={element.progress} height={10} />
+                    <ProgressBar
+                      bgcolor="#0078ff"
+                      progress={element.progress}
+                      height={10}
+                    />
                   </div>
                 );
               })}
@@ -70,7 +63,7 @@ function About() {
             <div className="title-box">
               <h3 className="right-heading">About Me</h3>
             </div>
-            <div className="underline"></div>
+            <div className="about-underline"></div>
             <div className="right-text">
               <p className="about-text">
                 Hello there! I am Pranav Tripathi, a pre-final student at
@@ -94,7 +87,7 @@ function About() {
               <p className="about-text">
                 I love to solve problems on LeetCode and I am preparing for
                 technical interviews by solving problems on this platform. Check
-                out my LeetCode Profile
+                out my <a href="https://leetcode.com/pranavtrip/" target="_blank">LeetCode Profile</a>
               </p>
               <p className="about-text">
                 Looking forward to learn various new technologies and languages.

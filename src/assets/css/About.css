@@ -6,7 +6,10 @@
 }
 
 .about-container {
-    border: 1px solid black;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 3.5rem;
     padding: 3.5rem;
 }
@@ -24,7 +27,6 @@
 .title {
     font-size: 1rem;
     font-weight: bolder;
-
 }
 
 .skill-heading {
@@ -38,4 +40,25 @@
 .progress-text{
     display: flex;
     justify-content: space-between;
+}
+.right-heading{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+}
+.about-underline{
+    background-color: #0078ff;
+    height: 0.2rem;
+    width: 25%;
+    margin: 0.3rem 0 1rem 0;
+}
+.about-text{
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
+.about-text a{
+    text-decoration: none;
+    color: #0078ff;
 }

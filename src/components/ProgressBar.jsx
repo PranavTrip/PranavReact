@@ -4,8 +4,7 @@ function ProgressBar({ bgcolor, progress, height }) {
   const Parentdiv = {
     height: height,
     width: "100%",
-    backgroundColor: "grey",  
-
+    backgroundColor: "#cde1f8",  
     textAlign: "center",
   };
 
