@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/Services.css";
+import services from "../assets/data/services";
 
 function Services() {
   return (
@@ -12,44 +13,21 @@ function Services() {
           </p>
           <div className="services-underline"></div>
         </div>
-        <div className="service-card-container">
-          <div className="card-outer">
-            <div className="card-icon">
-              <i class="fa-solid fa-tv"></i>
-            </div>
-            <div className="card-heading">WEB DESIGN</div>
-            <div className="card-description">
-              Web Designing consists of HTML, CSS, JS and I have a good command
-              over these languages and their frameworks like BootStrap, Tailwind
-              CSS and many more.
-            </div>
-          </div>
-        </div>
-        <div className="service-card-container">
-          <div className="card-outer">
-            <div className="card-icon">
-              <i class="fa-solid fa-tv"></i>
-            </div>
-            <div className="card-heading">WEB DESIGN</div>
-            <div className="card-description">
-              Web Designing consists of HTML, CSS, JS and I have a good command
-              over these languages and their frameworks like BootStrap, Tailwind
-              CSS and many more.
-            </div>
-          </div>
-        </div>
-        <div className="service-card-container">
-          <div className="card-outer">
-            <div className="card-icon">
-              <i class="fa-solid fa-tv"></i>
-            </div>
-            <div className="card-heading">WEB DESIGN</div>
-            <div className="card-description">
-              Web Designing consists of HTML, CSS, JS and I have a good command
-              over these languages and their frameworks like BootStrap, Tailwind
-              CSS and many more.
-            </div>
-          </div>
+        <div className="services-container row">
+
+          {services.map((element)=>{
+            return(
+              <div className="service-card col-md-3" key={element.id}>
+                <div className="service-image-container">
+                  <img src={element.image} alt="service-image" className="service-image" />
+                </div>
+                <div className="service-description-container">
+                  <h3 className="service-heading">{element.heading}</h3>
+                  <p className="service-description">{element.description}</p>
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
     </>

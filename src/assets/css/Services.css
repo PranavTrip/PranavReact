@@ -37,14 +37,24 @@
     margin: 0 auto;
 }
 
-.card-outer {
-    display: flex;
-    flex-direction: column;
+.service-image-container img{
+    width: 100px;
+    height: 100px;
+   margin: 0 auto;
 }
-
-.service-card-container {
-    border: 1px solid black;
+.service-card{
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:1rem;
+    text-align: center;
+}
+.services-container{
+    margin-top: 5rem;
     display: flex;
-    flex-direction: column;
-    width: 10rem;
+    justify-content: center;
+}
+.service-image-container{
+    border: 20px solid #0078ff;
+    border-radius: 50%;
+    
 }
