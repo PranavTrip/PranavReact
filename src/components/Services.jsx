@@ -1,37 +1,48 @@
 import React from "react";
 import "../assets/css/Services.css";
 import services from "../assets/data/services";
-
-function Services() {
+const Services = () => {
   return (
     <>
-      <div className="services">
-        <div className="service-main-heading">
-          <h1 className="heading">Services</h1>
-          <p className="heading-description">
-            You can reach me out for the following works
-          </p>
-          <div className="services-underline"></div>
-        </div>
-        <div className="services-container row">
-
-          {services.map((element)=>{
-            return(
-              <div className="service-card col-md-3" key={element.id}>
-                <div className="service-image-container">
-                  <img src={element.image} alt="service-image" className="service-image" />
-                </div>
-                <div className="service-description-container">
-                  <h3 className="service-heading">{element.heading}</h3>
-                  <p className="service-description">{element.description}</p>
-                </div>
+      <section id="service" className="services-mf pt-5 route">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="title-box text-center">
+                <h3 className="title-a">Services</h3>
+                <p className="subtitle-a">
+                  You can reach me out for following works:
+                </p>
+                <div className="line-mf"></div>
               </div>
-            )
-          })}
+            </div>
+          </div>
+          <div className="row">
+            {services.map((element) => {
+              return (
+                <div className="col-md-4">
+                  <div className="service-box">
+                    <div className="service-ico">
+                      <span className="ico-circle">
+                      <i>{element.image}</i>
+                        
+                      </span>
+                    </div>
+                    <div className="service-content">
+                      <h2 className="s-title text-center">{element.heading}</h2>
+                      <p className="s-description text-center">
+                        {element.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
-}
+};
 
 export default Services;

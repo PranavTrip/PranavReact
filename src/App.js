@@ -4,6 +4,7 @@ import About from "./components/About";
 // import Navbar from "./components/Navbar";
 // import ProgressBar from "./components/ProgressBar";
 import Services from "./components/Services";
+// import Count from "./components/Count";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      {/* <Count /> */}
     </>
   );
 }
