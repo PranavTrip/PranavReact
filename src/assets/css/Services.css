@@ -1,4 +1,4 @@
-.ico-circle{
+.ico-circle {
     height: 100px;
     width: 100px;
     font-size: 2rem;
@@ -8,4 +8,10 @@
     text-align: center;
     box-shadow: 0 0 0 10px #0078ff;
     display: block;
+}
+
+.service-icon {
+    display: inline-block;
+    margin: 0 auto;
+    
 }

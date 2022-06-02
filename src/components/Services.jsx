@@ -20,12 +20,15 @@ const Services = () => {
           <div className="row">
             {services.map((element) => {
               return (
-                <div className="col-md-4">
+                <div className="col-md-4" key={element.id}>
                   <div className="service-box">
                     <div className="service-ico">
                       <span className="ico-circle">
-                      <i>{element.image}</i>
-                        
+                        <img
+                          src={element.image}
+                          alt="service"
+                          className="service-icon"
+                        />
                       </span>
                     </div>
                     <div className="service-content">
