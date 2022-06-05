@@ -13,21 +13,21 @@ const Services = () => {
                 <p className="subtitle-a">
                   You can reach me out for following works:
                 </p>
-                <div className="line-mf"></div>
+                <div className="service-underline"></div>
               </div>
             </div>
           </div>
           <div className="row">
             {services.map((element) => {
               return (
-                <div className="col-md-4" key={element.id}>
+                <div className="col-md-4 service-outer-box" key={element.id}>
                   <div className="service-box">
                     <div className="service-ico">
                       <span className="ico-circle">
                         <img
                           src={element.image}
                           alt="service"
-                          className="service-icon"
+                          className="service-icon img-fluid"
                         />
                       </span>
                     </div>

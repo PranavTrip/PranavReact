@@ -1,6 +1,6 @@
 .ico-circle {
-    height: 100px;
-    width: 100px;
+    height: 6rem;
+    width: 6rem;
     font-size: 2rem;
     border-radius: 50%;
     line-height: 1.55;
@@ -11,7 +11,31 @@
 }
 
 .service-icon {
-    display: inline-block;
-    margin: 0 auto;
-    
+    height: 4rem;
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+.title-a{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.s-title{
+    margin-top: 1rem;
+}
+
+.service-underline{
+    background-color: #0078ff;
+    height: 0.2rem;
+    width: 5%;
+    margin: 1.5rem auto 3rem auto;
+    text-align: center;
+}
+
+.service-outer-box{
+    border: 1px solid black;
+    margin: 1rem;
 }
