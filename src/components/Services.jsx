@@ -32,8 +32,8 @@ const Services = () => {
                       </span>
                     </div>
                     <div className="service-content">
-                      <h2 className="s-title text-center">{element.heading}</h2>
-                      <p className="s-description text-center">
+                      <h2 className="s-title">{element.heading}</h2>
+                      <p className="s-description">
                         {element.description}
                       </p>
                     </div>
