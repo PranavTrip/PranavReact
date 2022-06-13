@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portfolio-image{
+    width: 400px;
+    height: 220px;
+}
+.portfolio-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.portfolio-data{
+    margin: 10px;
+    border: 1px solid black;
+    width: 400px;
+
+}
+
+.portfolio-image-section{
+    padding: 50px;
+}
