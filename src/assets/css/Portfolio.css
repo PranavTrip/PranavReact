@@ -1,13 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.portfolio-image{
+
+.portfolio-image {
     width: 400px;
     height: 220px;
+    border: 1px solid black;
 }
-.portfolio-image-container{
+
+.portfolio-image-container {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -16,13 +19,77 @@
     flex-direction: row;
 }
 
-.portfolio-data{
-    margin: 10px;
-    border: 1px solid black;
+.portfolio-data {
+    margin-bottom: 4rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* border: 1px solid black; */
     width: 400px;
 
 }
 
-.portfolio-image-section{
+.portfolio-image-section {
     padding: 50px;
+    padding-top:0 ;
+}
+
+
+.portfolio-text-section {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-title {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.portfolio-p-text {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.portfolio-s-text {
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.github-icon {
+    font-size: 1.5rem;
+}
+
+.portfolio-underline {
+    background-color: #0078ff;
+    height: 0.2rem;
+    width: 5%;
+    margin: 1rem auto 3rem auto;
+    text-align: center;
+}
+
+.portfolio-description {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.portfolio-data-description {
+    margin: 2rem 0 0 0.5rem;
+}
+
+.project-link{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.portfolio-data-description small{
+    font-weight: lighter;
 }

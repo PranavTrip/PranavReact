@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work-headings {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-underline {
+    background-color: #0078ff;
+    height: 0.3rem;
+    width: 5%;
+    margin: 0.5rem auto 3rem auto;
+    text-align: center;
+}
+
+.work-p-heading {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.work-s-heading {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.work-description {
+    display: flex;
+}
+
+.company-image {
+    width: 31.25rem;
+    height: 12.5rem;
+    /* border: 1px solid black; */
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 25rem;
+}
+
+.work-card-data {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-card-tag {
+    display: flex;
+    color: #fff;
+    padding: 0.313rem;
+    background-color: #0078ff;
+    border-radius: 4px;
+    margin: 0.938rem;
+}
+
+.work-description {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: 5rem;
+
+}
+
+.work-card-tag p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.company-name-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.company-description{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+.company-name-heading a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.company-name-heading a:hover{
+    text-decoration: none;
+    color:#0078ff;
+
+}
