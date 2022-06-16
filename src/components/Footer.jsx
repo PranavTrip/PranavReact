@@ -39,22 +39,22 @@ function Footer() {
               </div>
               <div className="social-icons">
                 <span className="icons">
-                  <a href="">
+                  <a href="http://github.com/PranavTrip">
                     <i class="fa-brands fa-github"></i>
                   </a>
                 </span>
                 <span className="icons">
-                  <a href="">
+                  <a href="https://twitter.com/wiki_ped_ia">
                     <i className="fa-brands fa-twitter"></i>
                   </a>
                 </span>
                 <span className="icons">
-                  <a href="">
+                  <a href="https://www.instagram.com/wiki._.ped.ia/">
                     <i class="fa-brands fa-instagram-square"></i>
                   </a>
                 </span>
                 <span className="icons">
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/pranav-tripathi-999ba0201/">
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </span>
