@@ -11,7 +11,28 @@ function Footer() {
               <h6 className="hire-me">Hire Me</h6>
               <div className="hire-me-underline"></div>
             </div>
-            <div className="footer-left-form"></div>
+            <div className="footer-left-form">
+              <form>
+                <div className="form-main-component">
+                  <div className="form-content">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Your Name" />
+                  </div>
+                  <div className="form-content">
+                    <label>Your Email</label>
+                    <input type="email" placeholder="Your Email" />
+                  </div>
+                  <div className="form-content">
+                    <label>Contact Number</label>
+                    <input type="number" placeholder="Contact Number" />
+                  </div>
+                  <div className="form-content">
+                    <label>Your Message</label>
+                    <textarea placeholder="Your Message" />
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
           <div className="footer-right-side">
             <div className="footer-right-heading">
@@ -40,7 +61,7 @@ function Footer() {
               <div className="social-icons">
                 <span className="icons">
                   <a href="http://github.com/PranavTrip">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </a>
                 </span>
                 <span className="icons">
@@ -50,12 +71,12 @@ function Footer() {
                 </span>
                 <span className="icons">
                   <a href="https://www.instagram.com/wiki._.ped.ia/">
-                    <i class="fa-brands fa-instagram-square"></i>
+                    <i className="fa-brands fa-instagram-square"></i>
                   </a>
                 </span>
                 <span className="icons">
                   <a href="https://www.linkedin.com/in/pranav-tripathi-999ba0201/">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </span>
               </div>

@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.footer{
+
+.footer {
     width: 100%;
     display: flex;
     height: 100vh;
@@ -15,10 +16,11 @@
     align-items: center;
 
 }
-.footer-box{
+
+.footer-box {
     background-color: #fff;
     width: 90%;
-    height: 70%;
+    height: 70vh;
     box-shadow: rgba(17, 17, 18, 0.4) 0px 8px 24px;
     display: flex;
     flex-direction: row;
@@ -26,63 +28,75 @@
     align-content: center;
     justify-content: space-around;
 }
-.hire-me-underline{
-    background-color: #0078ff;
-    height: 0.2rem;
-    width: 5%;
-    margin: 1.5rem auto 3rem auto;
-    text-align: center;
-}
-.get-in-touch-underline{
+
+.hire-me-underline {
     background-color: #0078ff;
     height: 0.2rem;
     width: 15%;
-   
-   
 }
-.footer-left-side{
-    width: 50%;
-    height: 100%;
-  
+
+.get-in-touch-underline {
+    background-color: #0078ff;
+    height: 0.2rem;
+    width: 15%;
+
 
 }
-.footer-right-side{
-    
+
+.footer-left-side {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
-    /* align-items: center; */
-  
+    justify-content: space-evenly;
+
 }
-.get-in-touch{
+
+.footer-right-side {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+
+.get-in-touch {
     margin-top: 10px;
     font-size: 2rem;
     font-weight: bold;
 }
-.footer-right-description{
+
+.footer-right-description {
     margin: 2rem 0.5rem;
 
 }
-.contact-icons i{
+
+.contact-icons i {
     color: #0078ff;
     font-size: 1rem;
     margin: 2px;
 }
-.contact-icons{
+
+.contact-icons {
     font-size: 1rem;
 }
-.contact-description{
+
+.contact-description {
     font-size: 1.2rem;
-    
+
 }
-.social-icons{
+
+.social-icons {
     margin: 2.5rem 0;
-    display:flex;
+    display: flex;
 }
-.icons{
+
+.icons {
     height: 40px;
     width: 40px;
     font-size: 1.8rem;
@@ -94,7 +108,24 @@
     text-align: center;
     padding: 1px;
 }
-.icons a{
+
+.icons a {
     text-decoration: none;
-    color:black;
+    color: black;
+}
+
+
+/* left Side */
+.hire-me {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer-left-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
